@@ -1,0 +1,60 @@
+iframe , img {max-width: 100%;}
+
+.card .card-image .h-title{ font-weight: bold;}
+.card .card-image .h-t-side{ font-size: 0.95em; font-weight: bold; }
+.slide-title{font-size: 1.9em; font-weight: bold;}
+.card .m-title{font-size: 3.243em; font-weight: bold; padding: 20px 0;}
+.card .m-title-side{font-size: 1.4em; font-weight: bold; padding: 10px 0;}
+.s-height{height: 200px;}
+.card .card-image .m-cont-img{height: 324px;}
+.card .m-cont-des{height: 340px;}
+.card .card-image .img1{height: 325px;}
+.card .card-image .m-cont-img-3{padding:0;height:190px;}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){color: #212121;}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{color: #9E9E9E;}
+.slider .indicators .indicator-item.active { background-color: #212121; }
+@media screen and (max-width:991px) {
+
+.card .card-image .h-image{height: 190px;}
+.card .card-image .h-title{font-size: 0.8em; font-weight: bold;}
+.card .card-image .s-height{height: 185px;}
+.card .card-image .h-t-side{ font-size: 0.782em; font-weight: bold; }
+.card .m-title-side{font-size: 1em; font-weight: bold; padding: 5px 0;}
+.card .m-title{font-size: 1.6em; font-weight: bold; padding: 5px 0;}
+.card .card-image .m-cont-img{height: 200px;}
+.card .m-cont-des{height: 190px; font-size: 0.8em;}
+.card .card-image .img1{height: 188px;}
+.parallax-container h1{font-size: 3.5em;}
+
+}
+@media screen and (max-width:900px) {
+
+.card .card-image .s-height{height: 120px;}
+.card .card-image .h-t-side{ display: none; }
+.card .m-title-side{font-size: 0.9em; font-weight: bold; padding: 5px 0;}
+.card .card-image .h-title{font-size: 0.455em; font-weight: bold;}
+.card .m-cont-des{height: 190px; font-size: 0.7em;}
+.parallax-container h1{font-size: 3em;}
+
+/*.card .card-image .m-cont-img{height: 224px;}
+.card .card-image .m-cont-des{height: 190px;}
+.card .card-image .m-cont-img1{height: 300px;}
+.card .card-image .m-cont-img-2{height: 180px;}
+.card .card-image .m-cont-img-3{height:110px;}
+.m-cont-3{height:110px; font-size: 0.4em;}*/
+
+}
+@media screen and (max-width:600px) {
+
+.card .card-image .h-image{height: 350px;}
+.card .card-image .h-title{font-size: 1.3em; font-weight: bold;}
+.parallax-container h1{font-size: 2.6em;}
+.card .card-image .s-height{height: 300px;}
+.card .card-image .h-t-side{ display: block; }
+.l-h-card img{height: 350px;}
+.card .card-image .m-cont-img{height: 400px;}
+.card .m-cont-des{height: 400px; font-size: 1em;}
+.card .card-image .img1{height: 400px;}
+
+
+}
